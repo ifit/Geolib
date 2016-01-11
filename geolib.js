@@ -16,7 +16,7 @@
 	var googleClientId;
 	var googlePrivateKey;
 	if (typeof window.navigator === 'undefined') {
-		var gm = require('googlemaps');
+		var gm = require('ifit-googlemaps');
 	}
 
 	var geolib = {
