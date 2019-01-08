@@ -705,8 +705,8 @@
 		 */
 		setBusinessSpecificParameters: function(clientId, privateKey, key){
 			gm.config('google-client-id', clientId);
-      gm.config('google-private-key', privateKey);
-      gm.config('key', key)
+                        gm.config('google-private-key', privateKey);
+                        gm.config('key', key)
 		},
 
 		/**
