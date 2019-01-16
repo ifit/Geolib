@@ -98,7 +98,8 @@
       "dev": true
     },
     "ifit-googlemaps": {
-      "version": "git+ssh://git@github.com/ifit/node-googlemaps.git#299858c8820c1f453cd2ad19ee19585fc2babe31",
+      "version": "1.0.0",
+      "resolved": "git+ssh://git@github.com/ifit/node-googlemaps.git#299858c8820c1f453cd2ad19ee19585fc2babe31",
       "from": "git+ssh://git@github.com/ifit/node-googlemaps.git#master",
       "requires": {
         "request": "~2.2.9",
