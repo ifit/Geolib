@@ -703,10 +703,11 @@
 		 *
 		 *  @return     Array [{lat:#lat, lng:#lng, elev:#elev},....]}
 		 */
-		setBusinessSpecificParameters: function(clientId, privateKey, googleApiKey){
+		setBusinessSpecificParameters: function(clientId, privateKey, googleApiKey, googleSignature){
 			gm.config('google-client-id', clientId);
       gm.config('google-private-key', privateKey);
       gm.config('google-api-key', googleApiKey);
+      gm.config('google-signature', googleSignature);
 		},
 
 		/**
